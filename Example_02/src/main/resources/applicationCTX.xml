@@ -3,7 +3,29 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+
 	<bean id="student" class="com.spring.example02.Student">
+		<constructor-arg>
+			<value>14100003</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="person" class="com.spring.example02.Person">
+		<constructor-arg>
+			<value>강영규</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>25</value>
+		</constructor-arg>
+		
+		<property name="student">
+			<ref bean="student"/>
+		</property>
+	</bean>
+
+
+
+<!-- 	<bean id="student" class="com.spring.example02.Student">
 		<property name="studentNum" value="14100003"/>
 	</bean>
 
@@ -14,5 +36,6 @@
 			<ref bean="student"/>
 		</property>
 	</bean>
+ -->
 
 </beans>

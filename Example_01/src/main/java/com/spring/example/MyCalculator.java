@@ -1,9 +1,6 @@
 package com.spring.example;
 
 public class MyCalculator {
-	
-
-
 	private Calculator calculator;
 	private int num1;
 	private int num2;
