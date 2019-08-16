@@ -1,4 +1,4 @@
-Example_01 - XML컨테이너를 이용한 DI(setter)
+﻿Example_01 - XML컨테이너를 이용한 DI(setter)
 Example_02 - XML이용한 DI(constructor)
 Example_03 - JAVA코드를 수정하지 않고 XML컨테이너만을 수정한 DI
 Example_04 - JAVA컨테이너를 이용한 DI
@@ -11,3 +11,6 @@ Example_13 - XML이용한 AOP
 Example_14 - JAVA이용한 AOP
 Example_15 - MVC모델의 개념 / @RequestMapping
 Example_16 - HttpServletRequest / @RequestParam / 데이터(커맨드) 객체 / @PathVariable
+Example_17 - @RequestMapping의 GET방식 & POST방식
+Example_18 - @ModelAttribute
+Example_19 - redirect
