@@ -14,3 +14,5 @@ Example_16 - HttpServletRequest / @RequestParam / 데이터(커맨드) 객체 / 
 Example_17 - @RequestMapping의 GET방식 & POST방식
 Example_18 - @ModelAttribute
 Example_19 - redirect
+Example_20 - Validator Interface
+Example_21 - @Validated & @InitBinder
